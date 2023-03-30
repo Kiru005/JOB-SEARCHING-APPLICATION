@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.nav-bar-items {
+  background-color: #f9f5d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.logo{
+  padding-top: 0.5vh;
+}
+
+.home-button {
+  background-color: #2465b9;
+  color: white;
+  vertical-align: top;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  border-radius: 12px;
+  font-size: medium;
+}
+.home-button:hover {
+  zoom: 120%;
+  opacity: 1;
+  transition: 0.3s;
+  background-color: #FFA333;
+}
+
+.nav-buttons {
+  background-color: #2465b9;
+  color: white;
+  vertical-align: middle;
+  margin-bottom: 0.7vh;
+  border-radius: 12px;
+  font-size: medium;
+}
+
+.nav-buttons:hover {
+  zoom: 120%;
+  opacity: 1;
+  /* transition: 0.3s; */
+  background-color: #FFA333;
+}
+
+.page-buttons {
+  background-color: #2465b9;
+  color: white;
+  vertical-align: middle;
+  margin-bottom: 0.7vh;
+  border-radius: 12px;
+  font-size: small;
+}
+
+.page-buttons:hover {
+  zoom: 120%;
+  opacity: 1;
+  transition: 0.3s;
+  background-color: #FFA333;
+}
+
+.main-page{
+  display: grid;
+  grid-template-columns: 15vw 70vw;
+}
+
+.entry-page{
+  padding-top: 2vh;
+  text-align: center;
+}
+
+
+
+.left-side-bar{
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 10vh;
+  padding-left: 1vw;
+}
+
+.logged-in-page {
+  padding-top: 4vh;
+  text-align: center;
+}
+
+.job-card-div{
+  padding-left: 10%;
+  padding-top: 10%;
+  
+  }
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 38vw 38vw;
+    grid-gap: 1vw;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vh;
+    grid-auto-flow: row;
+    width: 100vw;
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  .job-card-row {
+    margin-right: 2vw;
+    text-align: left;
+  }
+
+  .location-select{
+    width: 14vw;
+  }
+
+  .dashboard {
+    display: grid;
+    grid-template-columns: 38vw 38vw;
+    grid-gap: 1vw;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vh;
+    grid-auto-flow: row;
+    width: 100vw;
+    text-align: center;
+    padding-top: 5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .dashboard-buttons {
+    background-color: #2465b9;
+    color: white;
+    vertical-align: middle;
+    min-height: 7vh;
+    min-width: 20vw;
+    margin-bottom: 1vh;
+    border-radius: 12px;
+    font-size: x-large;
+  }
+  
+  .dashboard-buttons:hover {
+    zoom: 120%;
+    opacity: 1;
+    transition: 0.3s;
+    background-color: #FFA333;
+  }
+
+  .columned-row {
+    display: flex;
+  }
+
+  .forms{
+    padding-top: 4vh;
+    text-align: left;
+    padding-left: 4vw;
+  }
+
+  .note{
+    min-width: 30vw;
+    min-height: 10vh;
+  }
+
+  .side-bar-list{
+    list-style-type: none;
+    margin: 0;
+  }
